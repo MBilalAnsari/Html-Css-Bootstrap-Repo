@@ -1,0 +1,104 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: beige    
+  }
+  
+  .header {
+    padding: 10px 100px;
+    background-color:#2e302d       ;
+  }
+  
+  .logo {
+    display: inline-block;
+  }
+  .navlinks {
+    display: inline-block;
+     float:  right;
+  }
+  
+  .logo img {
+    width: 45px;
+    height: 40px;
+  }
+  
+  
+  .navlinks li {
+    display: inline-block;
+    margin: 15px ;
+    font-size: 15px;
+
+  }
+  .bgimg{
+    width: 100%;
+  }
+  
+  .loginForm {
+    width: 25%;
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+  
+  .fieldset {
+    padding: 20px 30px;
+  }
+  fieldset legend{
+    color: #000000 ;
+  }
+  .fieldContainer {
+    margin-top: 30px;
+  }
+  .fieldContainer label {
+    display: block;
+  }
+  .fieldContainer input {
+    width: 100%;
+    outline: none;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(246, 239, 239);
+  }
+  .fieldContainer button {
+    width: 100%;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: #5926b7;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .fieldset legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .fieldgender{
+    display: block;
+    margin-top: 30px;
+    padding: 0 5px;
+  }
+  .fieldcountry{
+    display: block;
+    margin-top: 15px;
+  
+  }
+.select{
+    margin-left: 10px;
+}
+.checkbox{
+   margin: 0 20px;
+}
+  
+  .parent {
+    background-color: rgb(107, 120, 120);
+    height: 130vh;
+  }

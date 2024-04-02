@@ -1,0 +1,156 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    background-image: url("./background.png");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+
+.imglogo {
+    height: 30px;
+    width: 30px;
+}
+
+.logo1 {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.logo2 {
+    text-align: center;
+    font-style: unset;
+}
+
+.logo3 {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+
+.logo3>button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #0d6db7;
+    color: #0d6db7;
+}
+
+.tabs {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.tabitems {
+    border: 1px solid #e5e5ee;
+    padding: 10px;
+}
+
+.Parent-container {
+    width: 80%;
+    margin: 0 0px 0 130px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.inputContainer {
+    width: 48%;
+    margin: 5px 10px;
+}
+
+.inputContainerFull {
+    margin: 10px 0;
+}
+
+.textInput {
+    width: 97%;
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+
+}
+
+
+.textInput:hover {
+    outline: none;
+    border: 1px solid #40a9ff;
+}
+
+.textInput:focus {
+    border: 1px solid #40a9ff;
+    outline: none;
+}
+
+.inputLabel {
+    margin: 5px 0;
+    color: #0d6db7;
+}
+
+
+.imageUploadDiv {
+    width: 60%;
+    display: flex;
+    padding: 0 10px;
+
+}
+.imageUploadDiv input{
+    height: 20%;
+    width: 20%;
+   padding: 40px;
+   margin: 16px 0 0 130px;
+
+}   
+
+.imageUploadList {
+    list-style-type: none;
+}
+.imageUploadList ul{
+    width: 60%;
+   
+}
+.imageUploadInput {
+    height: 40px;
+    border: 2px solid #e5e5e5;
+
+}
+
+
+.imageUploadInput:hover {
+    border: 1px solid #40a9ff;
+}
+
+
+.submitBtn {
+    width: 80%;
+    padding: 10px;
+    height: 40px;
+    margin: 0 0 0 120px;
+    background-color: #0d6db7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+ol li{
+    width: 80%;
+    margin: 0 0 0 100px     ;
+}

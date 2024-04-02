@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Navbar {
+    background: #000;
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 1px solid antiquewhite;
+}
+
+.imglogo img {
+    width: 100px;
+    height: 60px;
+}
+
+.leftmenu {
+    color: rgb(115, 218, 127);
+    display: flex;
+    gap: 40px;
+    text-decoration: wavy;
+    font-size: calc(20px);
+}
+
+/* // Section 1 */
+
+.section1 {
+    /* border: 1px solid rebeccapurple; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.Mywork {
+    /* border: 1px solid red; */
+    color: white;
+    width: 900px;
+}
+
+.Mywork h1 {
+    margin-top: ;
+    font-size: calc(80px) !important;
+    text-align: left;
+    color: #3efd2dfb;
+    opacity: calc(70%);
+}
+
+.Mywork h3 {
+    font-size: calc(70px);
+    text-align: left;
+    width: 1000px;
+    color: #018CD3;
+}
+
+.Mywork p {
+    font-size: calc(20px);
+}
+
+.profile img {
+    /* border: 1px solid red; */
+    height: 500px;
+    opacity: calc(100%);
+}
+
+hr {
+    color: gray;
+    color-scheme: ;
+}
+
+/* //section 2 */
+.Section2{
+    height: 800px;
+    width: 100%;
+    background-image: url(./mountain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: calc(100%)
+}
+
+.aboutme {
+    font-size: calc(80px);
+    text-align: center;
+    /* opacity: calc(100%) !important; */
+}
+
+.iam {
+    font-size: calc(60px);
+    text-align: center;
+    /* color: rgb(205, 176, 44);     */
+}
+
+.objective {
+    width: 500px;
+}
+
+.obj {
+    font-size: calc(60px);
+    background-color:#677E9B;
+    /* background-color: #F2EDF4; */
+    /* text-align: center; */
+    border-radius: 10px;
+
+}
+.para{
+    margin: 1px;
+    font-size: calc(30px);
+    /* background-color: rgb(220, 220, 159); */
+    /* border-radius: 10px; */
+    background-color:#677E9B;
+    /* opacity: 80%; */
+}
+.parentobj{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: px;
+    /* background-color: gray; */
+
+}
+
+.details span {
+    border: 1px solid;
+    padding: 40px;
+    display: block;
+    display: flex;
+    /* gap: 20px; */
+    border-radius: 5px;
+    font-size: calc(25px);
+    color: rgb(0, 0, 0);
+    background-color:#677E9B;
+    opacity: 100% !important;
+}
+.works{
+    /* margin-top: 10px; */
+    font-size: calc(40px);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.section3{
+    text-align: center;
+    /* color: wheat; */
+}
+.assignment{
+    font-size: calc(30px)
+}
+.Iworked {
+    border: 1px solid rgb(228, 176, 176);
+    padding: 3px;
+    width: 29%;
+    /* background-color: #018CD3; */
+}
+.Iworked p{
+    border-top: 1px solid rgb(246, 209, 209);
+    text-align: center;
+    font-weight: 600;
+    font-size: calc(20px);
+}
+.section3{
+    /* margin-top: 10px; */
+}
+.Iworked img{
+    height: 400px;
+    width: 500px;
+}
+.section4 , .section5{
+    /* background-color: #018CD3; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.section45 , .section4 , .section5{
+    /* background-color: black; */
+    /* background-image: url(./sunset-beach-sea-wave.jpg); */
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.section45 p{
+    color: rgb(255, 255, 255);
+}
+.contact{
+    /* text-align: center; */
+    margin-top: 30px;
+}
+.contactme{
+    display: flex;
+    /* margin-top: 20px; */
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    font-size: calc(30px);
+    /* border-width: 100px; */
+    background-image: url(./beautiful-tropical-beach-sea-ocean-with-white-cloud-blue-sky-copyspace.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+}
+input{
+    width: 400px;
+    height: 40px;
+    background-color: #a4757560;
+    border-color: #000;
+    border-radius: 5px;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    background-color: #F5F5F5;
+    background-color: #a4757560;
+    border-color: #000;
+}
+button{
+    font-size: calc(15px);
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #76badc8e;
+}
+.works{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}

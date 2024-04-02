@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* .navbar{
+    opacity: calc();
+} */
+.navmenu {
+    margin-left: 35%;
+    margin-right: auto;
+    /* margin-left: 900px; */
+    /* padding: 0 25px; */
+    /* display: flex; */
+    /* gap: 20px; */
+}
+
+.bc {
+    background-color: black;
+    color: white;
+
+}
+
+.navmenu ul li {
+    padding: 0 5px;
+}
+
+.btndiv {
+    padding: 0;
+    margin-left: 3%;
+}
+
+.btnnav {
+    /* margin-right: auto;
+    margin-left: auto; */
+    color: white;
+    background-color: #ec00bf;
+}
+
+.btnnav:hover {
+    background-color: #c70fa5;
+    color: white;
+    /* font-weight: 600; */
+}
+
+.sbimg {
+    width: 100%;
+    /* width: 516px;
+    height: 290px; */
+}
+
+.fnw h1 {
+    font-weight: calc(700);
+    font-size: calc(80PX);
+    color: white;
+}
+
+.fnw h2 {
+    font-weight: calc(700);
+
+    font-size: calc(80PX);
+    color: #ec00bf;
+}
+
+.fnw p {
+    color: white;
+
+}
+
+.btnfnw:hover {
+    background-color: #ec00bf;
+
+}
+
+.fnw button {
+    
+    width: 45%;
+    padding: 10PX 24PX;
+    background-color: rgb(0, 0, 0);
+    color: #ec00bf;
+    outline-color: #ec00bf !important;
+    /* transition : background-color .5s ease; */
+    transition: .5s;
+}
+
+.fullbgc {
+    background-color: black;
+}
+
+.secc , h1 , p {
+    color: white;
+}
+
+.scimg2 {
+    /* border: 1px solid hotpink;    */
+}
+
+
+/* //Section E body   */
+/* -----------CARDS-----------  */
+.Pcard img{
+    opacity: 50%;
+
+}
+.Pcard img:hover{
+    
+    transition: 2s;
+}
+.Pcard {
+    border: 1px solid aqua;
+    position: relative;
+    border-radius: 3%;
+    margin: 5px 0px;
+    width: 586px;   
+     height: 400px;
+     /* padding: unset; */
+}
+/* .Pcard  a{
+    position: absolute;
+    width: 15%;
+    top: 50%;
+    left:40%;
+} */
+.Pcard  p{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    /* left:15%; */
+} 
+.Pcard h1{
+    position: absolute;
+    top: 21%;
+    left: 45%;
+}
+.para3{
+    /* border: 1px solid blue; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.c1{
+    /* top: 35%;
+    left:15%; */
+    /* width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start; */
+}
+/* .img{
+    /* background-color: #ec00bf; 
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    border: 1px solid aqua;
+}*/
+.btnspan{
+    width: 30%;
+    top: 85%;
+    left:  35%;
+    right: 0;
+}
+.Ifoot{
+    /* border: 1px solid aqua; */
+    width: 30%;
+
+    /* border: 1px solid aqua; */
+}
+.d-flex{
+    /* justify-content: center; */
+}
+.Ifoot img{
+    /* border: 1px solid orange; */
+    /* align-items: center; */
+    /* width: 40.44px; */
+    height: 30px;
+    /* margin: 5px 0px; */
+    /* justify-content: center; */
+  
+
+}
+.PFoot{
+    /* border: 1px solid rgb(241, 0, 0); */
+    /* margin-left: auto !important;     */
+    /* margin-right: auto !important; */
+    width: 100%;  
+}
+.divpara{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;   
+}
+.Threepara{
+    /* border: 1px solid gold; */
+    color: magenta;
+    /* width: 33.3.1%; */
+    /* width: 30%; */
+    text-align: center;
+}
+.Footer  div  , p  , span {
+   /* background-color: #c70fa5; */
+}
+.PFoot span{
+    /* width: 14%; */
+   
+}
+.PFootspan{
+    /* border: 1px solid aqua      ; */
+    width: 40%;
+   
+}

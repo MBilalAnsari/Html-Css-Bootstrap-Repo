@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* // Navbar Head / */
+.paypal-logo{
+    width: 40.1px;
+    height: 40px;
+}
+
+.btnhelp{
+    background-color: white !important;
+    color: #003087 !important;
+}
+
+.btnlogin:hover{
+    outline-color: #003087;
+    background-color:#003087;
+    color: white;
+    font-weight: bold;
+}
+
+.btnlogin{
+    border: 2px solid;
+    color: #003087;
+    font-weight: bold;   
+}
+.btnsignin:hover{
+    background-color:#003087;
+
+
+}
+.btnsignin{
+    border: 1px solid;
+    color: white;
+    background-color:#003087;
+    font-weight: bold;
+}
+
+/* // Section 2 body  */
+
+.bodyblue{
+    background-color: #003087;
+    background-image: url("Logo/background-swirls.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2head{
+    color: white;
+    font-size: calc(100px);
+    /* font-weight: bold; */
+}
+.sec2para{
+    margin-top: 2%;
+    color: white;
+    font-size: calc(15px);
+    font-weight: 700 ;
+}
+.par-inp-btn{
+    border-left: 1px solid white;
+   height: 55%;
+    /* width: 20%; */
+    
+}
+.btnscannerinp::placeholder{
+    padding-left: 10%;
+}
+
+.btnscannerinp{
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+}
+.btnsendlink{
+    margin-top: 5%;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    font-weight: bolder;
+}
+.parascanner{
+    color: white;
+}
+.deviceimg{
+    width: 506px;
+    height: 435px;
+}
+
+/* //Section 3 Body  */
+
+
+/* //Section 4 , 5 , 7 , 8  Body  */
+.container-margin{
+    margin-top: 100px;
+}
+.image1{
+    width: 50%;
+    height: 1 !important;
+    
+}
+.heading1{
+    font-size: calc(55px);
+}
+.paragraph1{
+    font-size: calc(20px);
+}
+.atext{
+    font-size: calc(20px);
+}
+
+/* //Section 6  */
+
+.sec6img{
+    width: 88%;
+}
+
+/* //Section 9 Body  */
+
+.headh2{
+    /* border: 1px solid rebeccapurple; */
+    width: 80%;
+    color: #0C0C0D;
+    font-weight: 600;
+    font-size: calc(48px);
+    text-align: left;
+}
+
+/* //Section 10  */
+
+.section10{
+    background-color: #121660;
+}
+
+.section10 h2{
+
+    font-size: 2.7rem;
+    line-height: 48px;
+}
+.section10 a{
+    background-color: white;
+    color: black !important;
+    font-weight: 600;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.section10movingnum{
+    background-color: #1072eb;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    height: 80px;
+    width: 60px;
+    font-weight: 900;
+    font-size: calc(40px);
+    border-radius: 20px !important;
+    text-align: center;   
+}
+
+/* //Section 12 body  */
+
+.sec12divimg{
+    margin-top: 50px;
+}
+.section12img{
+    width: 12.07rem;
+    height: 3.2rem;
+}
+.section12a a{
+    color: #001c64;
+}
+@media only screen and (max-width:320px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  .bodyblue{
+       width: 100%;
+    }
+    .deviceimg{
+        width: 100%;
+    }
+    .sec2head{
+        color: white;
+        font-size: 50px;
+        /* font-weight: bold; */
+    }
+    .sec2para{
+        margin-top: 2%;
+        color: white;
+        font-size: calc(10px);
+        font-weight: 700 ;
+    }
+    .mqpic{
+        /* width: 100%; */
+        height: 40px;
+    }
+}

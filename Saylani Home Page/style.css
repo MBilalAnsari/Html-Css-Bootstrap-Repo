@@ -1,0 +1,398 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+}
+
+.topbar {
+    background-color: rgba(238, 238, 238, 1);
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid; */
+}
+
+.leftmenu {
+    display: inline-block;
+}
+
+.leftmenu ul {
+    /* border: 1px solid blue ; */
+    margin: 0px 0 0 0;
+    width: 100%;
+    height: 30px;
+    padding: 4px 0 0 120px;
+}
+
+.ulli {
+    font-style: Poppins-Regular;
+    font-weight: 550.1;
+}
+
+.leftmenu li {
+    /* border: 1px solid; */
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+
+.leftmenu ul li button {
+    margin-top: 0px;
+    padding: 8px 20px;
+}
+
+.Ebtn button {
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 90px;
+    top: 8px;
+    border: none;
+}
+
+.navbar {
+    /* border: 1px solid; */
+    width: 100%;
+
+}
+
+.imgli {
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.imglogo {
+    display: inline-block;
+    width: 200px;
+    height: 54.41px;
+}
+
+.limenu {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+
+}
+
+.parentlogo {
+    display: inline-block;
+}
+
+.lioption {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+}
+
+.lioptionb1 {
+    border: none;
+    background-color: #0D6DB7;
+    height: 40px;
+    width: 140px;
+    padding-right: 25px;
+}
+
+.lioptionb2 {
+    border: none;
+    background-color: #8DC63F;
+    height: 40px;
+    width: 150px;
+    padding-right: 25px;
+}
+
+/* <!-- About Of Saylani --> */
+.Saylaniwelcome {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.aboutsaylani {
+    margin-left: 120px;
+    /* border: 1px solid; */
+    display: inline;
+    justify-content: center;
+    width: 35%;
+    padding left: 0px;
+}
+
+.WtoS {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.aboutsaylani button {
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    border-radius: 4%;
+
+}
+
+.saylanipng {
+    margin-left: 200px;
+    padding: 10px;
+    */ display: inline-block;
+
+}
+
+.saylanipng img {
+    width: 520px;
+    height: 520px;
+}
+
+.Middlebar {
+    position: relative;
+    left: 160px;
+    /* text-align: center; */
+    width: 80%;
+    /* border: 1px solid; */
+    height: 100px;
+    background-color: #F0FCDA;
+}
+
+.Middlebar .Midborder {
+    text-align: center;
+    justify-content: center;
+    padding: 30px 60px 30px 60px;
+    margin: 0 0 0 0px;
+
+}
+
+.Middlebar .Midborder input {
+    position: relative;
+    bottom: 1px;
+    height: 43px;
+    /* border-color: black; */
+    border: 1px;
+}
+.donatecolor{
+    background-color:#8bd228;
+    height: 100px;
+    padding: 15px 10px 15px 10px;   
+    border-radius: 6%;
+}
+
+.Middlebar .Midborder label {
+    background-color: #FFFFFF;
+    padding: 15px 10px 15px 10px;
+    /* border: 1px solid; */
+    margin: 25px 25px 30px 25px;
+    border-radius: 6%;
+}
+.labelinp{
+    background-color: #545050;
+    /* border:1px solid ; */
+    height: 100px;
+    padding: 15px 10px 15px 10px;   
+}
+.Palestinediv{
+    margin: 30px 0 0 0;
+width: 100%;
+/* border: 1px solid ; */
+text-align: center;
+}
+.Sadqajariya div {
+    display: inline-block;
+    text-align: center;
+    margin: 10px; 
+    border: 1px solid;
+    width: 140px;
+    padding: 20px;
+    border: none;
+    background-color:#F0FCDA;
+    
+}
+.Sadqajariya{
+    text-align: center;
+}
+.donatediv{
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 20px 0 0 20px;
+}
+.bannerdiv button{
+    background-color:#8DC63F ;
+    display: block;
+    position: relative;
+    left: 35px;
+    bottom: 60px;
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 3% ;
+    color: white;
+    font-style: Poppins-Regular;
+    font-size: larger;
+}
+.bannerdiv img{
+    width: 415px;
+    height: 300px;
+    padding: 5px;
+}
+.bannerdiv{
+    display: inline-block;
+}
+.testinomial{
+    text-align: center;
+
+}
+.testinomial p{
+    color: #8DC63F;
+    font-size: larger;
+}
+.board{
+    /* border: 1px solid; */
+    text-align: center;
+    width: 80%;
+    margin: 0 160px;
+    height: 440px;
+    background-color: #EEEEEE;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.board img{
+    margin:20px 0 0 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.parentboard{
+    /* border: 1px solid; */
+    width: 100%;
+
+}
+.board h2{
+    color: #0D6DB7;
+}
+.board p{
+    padding: 20px 80px;
+}
+/* .embedmkv h1{
+    text-align: center;
+
+}
+.embedmkv div iframe{
+    margin: 0 0 0 100px;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+}
+.iframeborder{
+    border: 1px solid;
+    display: inline-block;
+    width: 30%;
+    margin: 0 5px;
+} */
+.embedmkv {
+    text-align: center; 
+}
+
+.iframeborder {
+    display: inline-block;
+    height: 200px;
+    width: 280px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.iframeborder iframe {
+    width: 100%; 
+    height: 315px; 
+}
+.iframeborder h3 {
+    margin-top: 10px;   
+}
+/* .news{
+    text-align: center;
+}
+.newsimg{
+    margin: 0 180px;
+}
+.newsimg{
+    display: inline-block;
+}
+.newsimg img{
+    width: 306px;
+    height: 200px;
+}
+.newsimg button{
+    display: block;
+    position: relative;
+    bottom:70px;
+    left: 10px;  
+}
+.newsimg p{
+    margin: 0 0 0 0;
+    width: 100%;
+} */
+/* Your styles go here */
+.news{
+    text-align: center;
+}
+.newsimg {
+    /* border: 1px solid #ccc; */
+    width: 20%;
+    padding: 0px;
+    display: inline-block;
+    margin: 0 0 0 70px;
+}
+
+.newsimg img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.newsimg button {
+    display: block; 
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+.newsimg p {
+    margin-top: 10px;
+}
+.parentinput div .iput{
+    border: 1px solid;
+    text-align: center;
+
+}
+.parentinput{
+    background-image: url(./1banner.jpg );
+    background-position:center ;
+    background-repeat: no-repeat;   
+    background-size: auto;
+    background-blend-mode: darken;
+    background-color: #176CAE  ;
+    margin: 100px 150px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    height: 267.5px;
+    width: 80%;
+}
+.subscribebtn{
+    display:inline-block;
+    margin: 10px 170px;
+ 
+}
+
+.input input{
+    height: 54px;
+    width: 584px;
+}
+.subscribebtn{
+    font-size: x-large;
+    font-style: inherit;
+    height: 54px;
+    width: 592px;
+}
+.parentinput h1{
+    color: rgb(225, 230, 225);
+    font-size: xx-large;
+    margin-top: 60px;
+}

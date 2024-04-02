@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div class="header">
+        <!-- Image Logo -->
+        <div class="logo">
+            <img src="./icon.png" alt="" >
+        </div>
+        <!-- Nav Links -->
+        <ul class="navlinks">
+            <li><a href="./index.html">Sign-In</a></li>
+            <li><a href="./signup.html">Sign-Up</a></li>
+        </ul>
+    </div>
+    
+    <div class="parent" >
+            <!-- loginform -->
+        <div class="loginForm">
+            <!-- Feild Set -->
+            <fieldset class="fieldset">
+              <legend>Sign-In</legend>
+              <div class="fieldContainer">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Type your Full name" />
+              </div>
+              <div class="fieldContainer">
+                <label for="">Father Name</label>
+                <input type="text" placeholder="Type your Father Name" />
+              </div>
+      
+              <div class="fieldContainer">
+                <label for="">Email</label>
+                <input type="text" placeholder="Type your email" />
+              </div>
+      
+              <div class="fieldContainer">
+                <label for="">Password</label>
+                <input type="text" placeholder="Type your password" />
+              </div>
+              <div class="fieldContainer">
+                <label for="">CNIC</label>
+                <input type="number" placeholder="Type your CNIC" />
+              </div>
+              <div class="fieldContainer">
+                <label for="">D-O-B</label>
+                <input type="date" placeholder="Type your D-O-B" />
+              </div>
+              <div class="fieldgender">
+                <label for="">Gender</label>
+                <input type="radio" name="Gender" class="checkbox"/>Male
+                <input type="radio" name="Gender" class="checkbox"/>Female
+              </div>
+              <div class="fieldcountry">
+                <label for="">Select your country</label>
+                <select class="select">
+                    <option value=""selected disabled >Select your country</option>
+                    <option value="" >Pakistan</option>
+                    <option value="" >Baltistan</option>
+                    <option value="">Azarbhaijan</option>
+                    <option value="" >Hindustan</option>
+                </select>
+              </div>
+      
+              <div class="fieldContainer">
+                <button>Submit</button>
+              </div>
+            </fieldset>
+          </div>
+    </div>
+</body>
+</html>
